@@ -1,4 +1,4 @@
 # Br3Gott Schema
 A web viewer for school schedule, run by jquery.
 
-schema.br3gott.pw
+<a href="https://schema.br3gott.pw">Current live version.</a>
