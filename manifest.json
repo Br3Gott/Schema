@@ -1,0 +1,36 @@
+{
+  "short_name": "Schedule",
+  "name": "Br3Gott Web Schedule Viewer",
+  "icons": [
+    {
+      "src": "menu.png",
+      "type": "image/png",
+      "sizes": "40x40"
+    },
+    {
+      "src": "food.png",
+      "type": "image/png",
+      "sizes": "40x40"
+    },
+    {
+      "src": "home.png",
+      "type": "image/png",
+      "sizes": "40x40"
+    },
+    {
+      "src": "schedule.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "schedule512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/home.html",
+  "theme_color": "#3498DB",
+  "background_color": "#333333",
+  "display": "standalone",
+  "orientation": "any"
+}

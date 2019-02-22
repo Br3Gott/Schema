@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#3498DB">
+	<meta name="description" content="Br3Gott Schedule Viewer"/>
+	<meta name="keywords" content="Br3Gott, Schedule, Novasoftware"/>
+	<meta name="author" content="Br3Gott" />
+	<!-- TEST -->
+	<meta http-equiv="expires" content="43200"/>
+    <title>Br3Gott Schedule</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+    <link rel="manifest" href="/manifest.json?v=1">
+</head>
+<body>
+	<img class="mat" src="food.png" title="Visa matsedel">
+	<div class="maten matoff">
+        <iframe class="frame" height="" src="https://skolmaten.se/berzeliusskolan/" frameborder="0"></iframe>
+    </div>
+    <img class="home" src="home.png" title="Återgå till idag">
+    <img class="menu" src="menu.png" title="Inställningar">
+    <div class="navoff navbg">
+        <h3>Schedule</h3>
+        <div class="navoff nav">
+            <p>Klass</p>
+            <input class="size text" id="1" type="text" value="t418" />
+            <p>Vecka</p>
+            <input class="size number" id="3" type="number" />
+            <input id="sbmt" type="submit" value="Uppdatera" />
+        </div>
+    </div>
+    <img id="img" src="" alt="Schedule">
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="moment-with-locales.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script type="text/javascript" src="jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
